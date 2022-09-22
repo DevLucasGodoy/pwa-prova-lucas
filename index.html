@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PWA</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="./images/pwa-iicon-256.png" />
+  <meta name="theme-color" content="white" />
+  <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Frequência nas Aulas</h1>
+    <label for="materia">Matéria</label>
+    <input type="text" id="materia">
+    <label for="carga-horaria">Carga Horária</label>
+    <input type="text" id="carga-horaria">
+    <label for="faltas">Faltas</label>
+    <input type="text" id="faltas">
+    <button id="calcular">Consultar</button>
+    <p id="resultado"></p>
+    <p id="faltasDisponiveis"></p>
+    <p id="situacao"></p>
+  </div>
+</body>
+
+</html>
